@@ -56,7 +56,7 @@ header{
    background-size: cover;
    background-position: center;
    height: 50vh;
-  padding-bottom: 50px;
+  
 }
 .service-content{
     color: #fff;
@@ -66,4 +66,12 @@ header{
     font-family: 'Lato', sans-serif;
     padding-top: 100px;
     font-weight: bold;
+   
+}
+.our-work-img{
+    text-align: center;
+    
+}
+.work-container{
+    padding-top: 100px;
 }
