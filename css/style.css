@@ -2,7 +2,17 @@ body{
     margin: 0;
     padding: 0;
     
+    
 }
+h2{
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+   
+   
+}
+
+/*  header css content */
 
 header{
     background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/h_img.jpg);
@@ -21,12 +31,13 @@ header{
    font-weight: bold;
     margin: auto;
     padding-top: 30px;
-    font-family: 'Lato', sans-serif;
+   
 }
 .profile-texts{
     margin: auto;
     padding-top: 40px;
     font-family: 'Lato', sans-serif;
+
 }
 .logo{
     padding-top: 240px;
@@ -37,25 +48,29 @@ header{
 }
 .header-content p{
     font-size: 0.60rem;
-    font-family: 'Lato', sans-serif;
+   
     
 }
+/* about css content */
+
 .about-content{
     width: 70%;
     margin: auto;
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    
 }
 .about-container{
     padding-top: 50px;
     padding-bottom: 50px;
    
 }
+/* service css content */
+
 .service-container{
    background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/s_image.jpg);
    background-size: cover;
    background-position: center;
-   height: 50vh;
+   height: 80vh;
   
 }
 .service-content{
@@ -68,6 +83,8 @@ header{
     font-weight: bold;
    
 }
+/* what we do css content */
+
 .our-work-img{
     text-align: center;
     
@@ -75,15 +92,53 @@ header{
 .work-container{
     padding-top: 100px;
 }
-.work-title{
-    padding-bottom: 40px;
-   
-}
+
+/* portfolio css content  */
+
 .portfolio-img{
-    padding: 20px 20px 20px;
+    padding: 20px;
+  
   
 }
 .portfolio-container{
     text-align: center;
     padding-top: 60px;
+    margin: 80px  80px;
+}
+
+/* contact css */
+
+.contact-us{
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-content{
+    background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/c_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: #fff;
+    
+}
+/* footer css*/
+
+.footer-content{
+    text-align: center;
+   padding-top: 50px;
+    margin: auto;
+
+    
+}
+.p-footer{
+    padding-top: 30px;
+    margin: auto;
+    width: 50%;
+    font-size: 0.8rem;
+
+}
+.icon-img{
+    padding: 10px;
+}
+.copyright{
+    font-size: 0.8rem;
 }
