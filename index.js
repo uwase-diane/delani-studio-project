@@ -38,8 +38,3 @@ $(document).ready(function(){
 });
 
 // jquery overaly images
-$(document).ready(function(){
-    $(".portfolio-img1").hover(function(){
-        $(".overlay1").toggle();
-    });
-});

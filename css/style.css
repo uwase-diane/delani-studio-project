@@ -104,20 +104,14 @@ header{
 
 /* portfolio css content  */
 
-.portfolio-img{
-    padding: 20px;
-  
-  
-}
+
 .portfolio-container{
     text-align: center;
     padding-top: 60px;
     margin: 80px  80px;
 }
 
-.text{
-    display: none;
-}  
+
 /* contact css */
 
 .contact-us{
