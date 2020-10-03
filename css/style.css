@@ -231,13 +231,13 @@ header{
 }
 
 .content-text-four p {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: rgb(238, 9, 9);
+    font-size: 25px;
     font-weight: bold;
     
 }
 .overlays-five{
-    background: rgba(87, 86, 86, 0.7);
+    background: rgba(166, 211, 219, 0.7);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -263,8 +263,40 @@ header{
 }
 
 .content-text-five p {
-    color: rgb(255, 255, 255);
+    color: rgb(10, 69, 80);
     font-size: 30px;
+    font-weight: bold;
+    
+}
+.overlays-six{
+    background: rgba(131, 132, 133, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+.content-text-six{
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+  
+    padding: 20px 0;
+}
+
+.content-text-six p {
+    color: rgb(65, 66, 66);
+    font-size: 20px;
     font-weight: bold;
     
 }

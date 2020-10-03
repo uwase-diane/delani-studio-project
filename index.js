@@ -79,6 +79,7 @@ $('.image-four').mouseleave(function() {
      $('.content-text-four').hide();
 });
 
+
 $('.image-five').mouseenter(function() {
     $('.overlays-five').show();
      $('.content-text-five').show();
@@ -87,6 +88,17 @@ $('.image-five').mouseenter(function() {
 $('.image-five').mouseleave(function() {
      $('.overlays-five').hide();
      $('.content-text-five').hide();
+});
+
+
+$('.image-six').mouseenter(function() {
+    $('.overlays-six').show();
+     $('.content-text-six').show();
+});
+
+$('.image-six').mouseleave(function() {
+     $('.overlays-six').hide();
+     $('.content-text-six').hide();
 });
 
 
