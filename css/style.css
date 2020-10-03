@@ -83,6 +83,15 @@ header{
     font-weight: bold;
    
 }
+.text-work{
+    display: none;
+}
+.tet-work{
+    display: none;
+}
+.txt-work{
+    display: none;
+}
 /* what we do css content */
 
 .our-work-img{
@@ -106,27 +115,74 @@ header{
     margin: 80px  80px;
 }
 
+.text{
+    display: none;
+}  
 /* contact css */
 
 .contact-us{
-    text-align: center;
-    padding-top: 100px;
+  max-width: 700px;
+  margin-right: 50px;
 }
 .contact-content{
     background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/c_image.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
     color: #fff;
     
 }
+.contact-us{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: center;
+
+}
+.text-name, .text-email, .text-message{
+      background: none;
+      border: none;
+      outline: none;
+     border-top: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     border-right:1px solid #fff ;
+     border-left:1px solid #fff;
+      color: #fff;
+      padding: 3px 3px;
+      margin-bottom: 40px;
+      
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.text-name{
+    float: left;
+    width:270px;
+ 
+}
+.text-email{
+    float: right;
+    width:270px;
+   
+  
+}
+.text-message{
+    min-width: 550px;
+    min-height: 200px;
+    padding-top: 10px;
+}
+
+.contact-us h2{
+    padding-top: 30px;
+}
+
 /* footer css*/
 
 .footer-content{
     text-align: center;
    padding-top: 50px;
     margin: auto;
-
+    
     
 }
 .p-footer{

@@ -50,16 +50,41 @@
             <h2>WHAT WE DO</h2>
             <div class="row ">
               <div class="col-sm">
-                <img src="images/design_icon.png">
-                <p>DESIGN</p>
+                <div class="image-work">
+                  <img src="images/design_icon.png">
+                  <p>DESIGN</p>
+                </div>
+                <div class="text-work"> 
+                  <p>DESIGN</p>
+                <p>Our design practice offers a full range of services including brand strategy, 
+                  interaction and visual design and user experience testing.
+                  Throughout your project, our designers create and implement visual design 
+                  and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+              </div>
+              
               </div>
               <div class="col-sm">
+               <div class="imag-work">
                 <img src="images/dev_icon.png">
                 <p>DEVELOPMENT</p>
+               </div>
+               <div class="tet-work">
+                <p>DEVELOPMENT</p>
+                 <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                  They collaborate with your team to write, 
+                  and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+               </div>
               </div>
               <div class="col-sm">
-                <img src="images/product_icon.png">
+                <div class="img-work">
+                  <img src="images/product_icon.png">
                 <p>PRODUCT MANAGEMENT</p>
+                </div>
+                <div class="txt-work">
+                  <p>PRODUCT MANAGEMENT</p>
+                  <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                    This iterative process allows for changes as business requirements evolve.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -68,7 +93,14 @@
          <h2>PORTFOLIO</h2>
          <div class="image-area">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                <img src="images/work4.jpg" alt="work4" class="col portfolio-img">  
+
+              <div class="content">
+                 <div class="overlay1">
+                      <div class="text">Black Studio</div>
+                 </div>
+                 <img src="images/work4.jpg" alt="work4" class="col portfolio-img1">
+              </div>
+         
                 <img src="images/work3.jpg" alt="work3" class="col portfolio-img">  
                 <img src="images/work2.jpg" alt="work2" class="col portfolio-img">  
                 <img src="images/work1.jpg" alt="work1" class="col portfolio-img">  
@@ -77,24 +109,22 @@
                 <img src="images/work5.jpg" alt="work5" class="col portfolio-img">  
                 <img src="images/work6.jpg" alt="work6" class="col portfolio-img">  
                 <img src="images/work7.jpg" alt="work7" class="col portfolio-img">  
-                <img src="images/work8.jpg" alt="work8" class="col portfolio-img">  
+                <img src="images/work8.jpg" alt="" class="col portfolio-img">  
               </div>
          </div>
      </section>
      <section class="contact-content">
          <div class="contact-us">
              <h2>CONTACT US</h2>
-           <form>
-            <div class="row">
-                <div class="col-6">
-                    <input type="text" value="" placeholder="name" name="name">
-                </div>
-                <div class="col-6">
-                    <input type="text" value="" placeholder="email" email="email">
-                </div>
-            </div>
-             
-                <textarea type="text" value="" placeholder="your message"></textarea>
+           <form class="contact" action="" method="post">
+            
+           
+            <input type="text" name="name" value="" class="text-name" placeholder="name">
+                
+            <input type="text" name="email" value="" class="text-email" placeholder="email">
+          
+       
+            <textarea name="message" placeholder="Your message here..." class="text-message"></textarea>  
               
            </form>
          </div>
