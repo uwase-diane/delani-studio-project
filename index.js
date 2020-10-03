@@ -38,3 +38,33 @@ $(document).ready(function(){
 });
 
 // jquery overaly images
+$('.image-one').mouseenter(function() {
+    $('.overlays-one').show();
+     $('.content-text').show();
+});
+
+$('.image-one').mouseleave(function() {
+     $('.overlays-one').hide();
+     $('.content-text').hide();
+});
+
+
+$('.image-two').mouseenter(function() {
+    $('.overlays-two').show();
+     $('.content-text-two').show();
+})
+
+$('.image-two').mouseleave(function() {
+     $('.overlays-two').hide();
+     $('.content-text-two').hide();
+})
+
+$('.image-three').mouseenter(function() {
+    $('.overlays-three').show();
+     $('.content-text-three').show();
+})
+
+$('.image-three').mouseleave(function() {
+     $('.overlays-three').hide();
+     $('.content-text-three').hide();
+})
