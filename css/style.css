@@ -172,6 +172,7 @@ header{
     font-size: 40px;
     
 }
+
 .overlays-three{
     background: rgba(228, 161, 74, 0.7);
     position: absolute;
@@ -201,6 +202,70 @@ header{
 .content-text-three p {
     color: rgb(196, 95, 1);
     font-size: 30px;
+    
+}
+.overlays-four{
+    background: rgba(87, 86, 86, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+.content-text-four{
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+  
+    padding: 20px 0;
+}
+
+.content-text-four p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.overlays-five{
+    background: rgba(87, 86, 86, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+    display: none;
+}
+
+.content-text-five{
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+  
+    padding: 20px 0;
+}
+
+.content-text-five p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
     
 }
 
