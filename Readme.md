@@ -19,19 +19,19 @@ This project is a web application for Delani studio that shows details about the
 
 ### Installation / setup instruction
 
-* :Open Terminal
-* :git clone [my project link to the project repository](https://github.com/uwase-diane/delani-studio-project.git)
-* :cd Delani-studio
-* :code . 
+* Open Terminal
+* git clone [my project link to the project repository](https://github.com/uwase-diane/delani-studio-project.git)
+* cd Delani-studio-project
+* code . 
 
 ### Technologies Used
- * :HTML 
- * :CSS
- * :JS  
- * :BOOTSTRAP 
- * :jQuery
+ * HTML 
+ * CSS
+ * BOOTSTRAP 
+ * jQuery
 
 ### BDD
+
 the User Enter name and email and message, they wish to send. then Press submit.
 they will see an Alert which says "we have received your message"
 
