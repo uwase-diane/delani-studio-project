@@ -123,11 +123,12 @@ $('.image-eight').mouseleave(function() {
 // contact form jquery 
 
 $("#contact").submit(function(event){
-   var visiterName = $(".text-name").val();
-   if(visiterName === ''){
-       alert("enter a correct name please")
-   }else{
-  
+   var visiterName =($(".text-name")).val();
+   if(visiterName == ''){
+       alert("enter a correct name please");
+   }
+   else
+   {
     alert(visiterName + " Thank You We Appreciate Your Message!!");
     event.preventDefault();
    }
