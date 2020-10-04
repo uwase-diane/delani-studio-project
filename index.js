@@ -101,6 +101,24 @@ $('.image-six').mouseleave(function() {
      $('.content-text-six').hide();
 });
 
+$('.image-seven').mouseenter(function() {
+    $('.overlays-seven').show();
+     $('.content-text-seven').show();
+});
+
+$('.image-seven').mouseleave(function() {
+     $('.overlays-seven').hide();
+     $('.content-text-seven').hide();
+});
+$('.image-eight').mouseenter(function() {
+    $('.overlays-eight').show();
+     $('.content-text-eight').show();
+});
+
+$('.image-eight').mouseleave(function() {
+     $('.overlays-eight').hide();
+     $('.content-text-eight').hide();
+});
 
 
 

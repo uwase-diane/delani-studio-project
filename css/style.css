@@ -131,6 +131,7 @@ header{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    border: 6px solid #fff;
     display: none;
   
     padding: 20px 0;
@@ -163,7 +164,7 @@ header{
     top: 50%;
     left: 50%;
     display: none;
-  border: 1px solid #fff;
+  border: 6px solid #fff;
     padding: 20px 0;
 }
 
@@ -194,6 +195,7 @@ header{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    border: 6px solid #fff;
     display: none;
   
     padding: 20px 0;
@@ -225,6 +227,7 @@ header{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    border: 6px solid #fff;
     display: none;
   
     padding: 20px 0;
@@ -245,6 +248,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
+  
     opacity: 0.5;
     display: none;
 }
@@ -258,7 +262,7 @@ header{
     top: 50%;
     left: 50%;
     display: none;
-  
+    border: 6px solid #fff;
     padding: 20px 0;
 }
 
@@ -277,6 +281,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
+   
     opacity: 0.5;
     display: none;
 }
@@ -290,7 +295,7 @@ header{
     top: 50%;
     left: 50%;
     display: none;
-  
+    border: 6px solid #fff;
     padding: 20px 0;
 }
 
@@ -300,7 +305,74 @@ header{
     font-weight: bold;
     
 }
+.overlays-seven{
+    background: rgba(131, 132, 133, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+   
+    opacity: 0.5;
+    display: none;
+}
 
+.content-text-seven{
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: none;
+    border: 6px solid #fff;
+    padding: 20px 0;
+}
+
+
+.content-text-seven p {
+    color: rgb(65, 66, 66);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.overlays-eight{
+    background: rgba(131, 132, 133, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+    display: none;
+}
+
+.content-text-eight{
+    position: absolute;
+    opacity: 1;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    border: 2px solid rgb(109, 63, 2);
+    left: 50%;
+    display: none;
+    border: 6px solid #fff;
+    padding: 20px 0;
+}
+
+.content-text-eight p {
+    color: rgb(97, 55, 0);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
 /* contact css */
 
 .contact-us{
