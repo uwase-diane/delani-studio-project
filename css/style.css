@@ -27,6 +27,7 @@ header{
     color: #fff;
     
 }
+
 .profile-text{
    font-weight: bold;
     margin: auto;
@@ -46,6 +47,22 @@ header{
 .mouse-animation{
     padding-top: 180px
 }
+
+.mouse-animation{
+    animation: bounce 2.6s infinite;
+  }
+  @keyframes bounce {
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-60px);
+    }
+    60% {
+      transform: translateY(-60px);
+    }
+  }
+  
 .header-content p{
     font-size: 0.75rem;
     font-family: 'Cormorant Garamond', serif;
@@ -161,7 +178,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 1;
+    opacity: 0.9;
     display: none;
 }
 
@@ -193,7 +210,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.6;
+    opacity: 0.7;
     display: none;
 }
 
@@ -225,7 +242,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.5;
+    opacity: 0.7;
     display: none;
 }
 
@@ -259,7 +276,7 @@ header{
     bottom: 0;
     right: 0;
   
-    opacity: 0.5;
+    opacity: 0.7;
     display: none;
 }
 
@@ -292,7 +309,7 @@ header{
     bottom: 0;
     right: 0;
    
-    opacity: 0.5;
+    opacity: 0.7;
     display: none;
 }
 
@@ -324,7 +341,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.5;
+    opacity: 0.7;
     display: none;
 }
 
@@ -355,7 +372,7 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.5;
+    opacity: 0.7;
     display: none;
 }
 
