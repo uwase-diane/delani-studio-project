@@ -120,6 +120,11 @@ $('.image-eight').mouseleave(function() {
      $('.content-text-eight').hide();
 });
 
+// contact form jquery 
 
-
+$("#contact").submit(function(event){
+   
+    alert("Thank You We Appreciate Your Message!!");
+    event.preventDefault();
+});
 

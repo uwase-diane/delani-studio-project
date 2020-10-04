@@ -15,7 +15,7 @@ h2{
 /*  header css content */
 
 header{
-    background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/h_img.jpg);
+    background-image: url(https://res.cloudinary.com/auca/image/upload/v1601807252/h_img_tf8pog.jpg);
     background-size: cover;
     background-position: center;
     height: 120vh;
@@ -47,7 +47,9 @@ header{
     padding-top: 180px
 }
 .header-content p{
-    font-size: 0.60rem;
+    font-size: 0.75rem;
+    font-family: 'Cormorant Garamond', serif;
+
    
     
 }
@@ -67,7 +69,7 @@ header{
 /* service css content */
 
 .service-container{
-   background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/s_image.jpg);
+   background-image: url(https://res.cloudinary.com/auca/image/upload/v1601807286/s_image_o8arrq.jpg);
    background-size: cover;
    background-position: center;
    height: 80vh;
@@ -101,7 +103,15 @@ header{
 .work-container{
     padding-top: 100px;
 }
-
+.product{
+    font-weight: bold;
+}
+.design{
+    font-weight: bold;
+}
+.develop{
+    font-weight: bold;
+}
 /* portfolio css content  */
 
 
@@ -139,7 +149,7 @@ header{
 
 .content-text p {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     
 }
 .overlays-two{
@@ -235,7 +245,7 @@ header{
 
 .content-text-four p {
     color: rgb(238, 9, 9);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     
 }
@@ -306,7 +316,7 @@ header{
     
 }
 .overlays-seven{
-    background: rgba(131, 132, 133, 0.7);
+    background: rgba(190, 107, 58, 0.7);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -314,7 +324,6 @@ header{
     top: 0;
     bottom: 0;
     right: 0;
-   
     opacity: 0.5;
     display: none;
 }
@@ -328,28 +337,25 @@ header{
     top: 50%;
     left: 50%;
     display: none;
-    border: 6px solid #fff;
+  border: 6px solid #fff;
     padding: 20px 0;
 }
 
-
 .content-text-seven p {
-    color: rgb(65, 66, 66);
+    color: rgb(78, 34, 4);
     font-size: 20px;
-    font-weight: bold;
     
 }
 .overlays-eight{
-    background: rgba(131, 132, 133, 0.7);
+    background: rgb(90, 50, 28);
     position: absolute;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
-    
     bottom: 0;
     right: 0;
-    opacity: 0.8;
+    opacity: 0.5;
     display: none;
 }
 
@@ -360,17 +366,15 @@ header{
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     top: 50%;
-    border: 2px solid rgb(109, 63, 2);
     left: 50%;
     display: none;
-    border: 6px solid #fff;
+  border: 4px solid #fff;
     padding: 20px 0;
 }
 
 .content-text-eight p {
-    color: rgb(97, 55, 0);
-    font-size: 20px;
-    font-weight: bold;
+    color: rgb(182, 179, 176);
+    font-size: 40px;
     
 }
 /* contact css */
@@ -380,7 +384,7 @@ header{
   margin-right: 50px;
 }
 .contact-content{
-    background-image: url(/home/uwase/Documents/moringa-school-projects/delani-studio-project/images/c_image.jpg);
+    background-image: url(https://res.cloudinary.com/auca/image/upload/v1601807177/c_image_r1otzn.jpg);
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -429,6 +433,9 @@ header{
 
 .contact-us h2{
     padding-top: 30px;
+}
+.btn{
+    width: 60%;
 }
 
 /* footer css*/
