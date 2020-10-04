@@ -13,7 +13,7 @@ This project is a web application for Delani studio that shows details about the
 
 ### Click here to view My Page 
 
-[project link]()
+[project link](https://uwase-diane.github.io/delani-studio-project/)
 
 
 
